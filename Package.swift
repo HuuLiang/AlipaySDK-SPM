@@ -4,22 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "AlipaySDk",
+    name: "AlipaySDK",
     products: [
         .library(
-            name: "AlipaySDk",
-            targets: ["AlipaySDk"]
+            name: "AlipaySDK",
+            targets: ["AlipaySDK"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "AlipaySDkBinary",
-            path: "Frameworks/AlipaySDk.xcframework"
+            name: "AlipaySDKBinary",
+            path: "Frameworks/AlipaySDK.xcframework"
         ),
         .target(
-            name: "AlipaySDk",
+            name: "AlipaySDK",
             dependencies: [
-                "AlipaySDkBinary"
+                "AlipaySDKBinary"
             ],
             resources: [
                 .copy("AlipaySDK.bundle")
@@ -37,8 +37,8 @@ let package = Package(
             ]
         ),
         .testTarget(
-            name: "AlipaySDkTests",
-            dependencies: ["AlipaySDk"]
+            name: "AlipaySDKTests",
+            dependencies: ["AlipaySDK"]
         ),
     ]
 )

@@ -1,5 +1,5 @@
 import Testing
-@testable import AlipaySDk_SPM
+@testable import AlipaySDK
 
 @Test func example() async throws {
     // Write your test here and use APIs like `#expect(...)` to check expected conditions.
