@@ -1,2 +1,2 @@
 # AlipaySDK-SPM
-Swift Package Manager support for AlipaySDk
+Swift Package Manager support for AlipaySDK
