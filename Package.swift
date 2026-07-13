@@ -22,7 +22,7 @@ let package = Package(
                 "AlipaySDKBinary"
             ],
             resources: [
-                .copy("AlipaySDK.bundle")
+                .copy("Resources/AlipaySDK.bundle")
             ],
             linkerSettings: [
                 .linkedFramework("SystemConfiguration"),
